@@ -1,19 +1,18 @@
 <template>
   <div>
     <Header />
-    {{$mq}}
-    <!-- <HomepageContent /> -->
+    <HomepageContent />
   </div>
 </template>
 
 <script>
 import Header from "../components/Header";
-// import HomepageContent from "../components/HomepageContent";
+import HomepageContent from "../components/HomepageContent";
 export default {
   name: "Homepage",
   components: {
     Header,
-    // HomepageContent,
+    HomepageContent,
   },
 };
 </script>

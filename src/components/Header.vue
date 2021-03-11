@@ -94,9 +94,9 @@
         </a>
       </div>
     </header>
+    <!-- Mobile menu Header-->
     <div class="ml:hidden mx-auto px-2 md:px-6 lg:px-8">
       <div class="relative flex items-center h-14">
-        <!-- Mobile menu Header-->
         <button
           type="button"
           @click="showMobileMenu = !showMobileMenu"
@@ -157,7 +157,7 @@
         </div>
       </div>
       <section
-      v-show="!showMobileMenu"
+        v-show="!showMobileMenu"
         role="search"
         class="md:mx-auto flex flex-wrap items-center text-base justify-center"
       >
@@ -191,8 +191,7 @@
         </div>
       </section>
     </div>
-
-    <!-- Mobile menu, show/hide based on menu state. -->
+    <!-- Mobile menu content -->
     <div class="ml:hidden" id="mobile-menu" v-show="showMobileMenu">
       <div class="px-2 pt-2 pb-3 space-y-1">
         <ul>

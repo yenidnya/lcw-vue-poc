@@ -110,7 +110,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .main-container {
   margin-top: 15px;
   padding-left: 10px;

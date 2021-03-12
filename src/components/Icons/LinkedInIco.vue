@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .linkedin {
   width: 17px;
   height: 20px;

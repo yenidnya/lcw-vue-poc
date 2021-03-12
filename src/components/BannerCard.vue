@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .banner-button {
   border: 2px solid #302e2b !important;
   color: #302e2b !important;

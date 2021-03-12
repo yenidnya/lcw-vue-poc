@@ -64,7 +64,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .header-shadow {
   -webkit-box-shadow: 0px 11px 29px -17px rgba(0, 0, 0, 0.61);
   -moz-box-shadow: 0px 11px 29px -17px rgba(0, 0, 0, 0.61);

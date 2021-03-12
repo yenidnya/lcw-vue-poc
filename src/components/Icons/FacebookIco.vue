@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .facebook {
   width: 13px;
   height: 17px;

@@ -44,7 +44,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .category {
   float: left;
   font-size: 14px;

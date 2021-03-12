@@ -31,7 +31,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .user-icon {
   width: 18px;
   height: 22px;

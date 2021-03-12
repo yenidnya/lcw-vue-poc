@@ -49,7 +49,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .search-input {
   width: 30vw;
   height: 30px;

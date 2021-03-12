@@ -32,7 +32,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .mobile-hamburger {
   margin-right: 0.2vw;
   small {

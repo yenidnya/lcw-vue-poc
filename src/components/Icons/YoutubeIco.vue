@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .youtube {
   width: 20px;
   height: 20px;

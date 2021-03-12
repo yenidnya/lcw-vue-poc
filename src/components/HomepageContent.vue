@@ -1,7 +1,7 @@
 <template>
   <div class="main-container ml:mx-4">
     <Banner :bannerURL="topBannerURL" bannerAlt="top banner" />
-    <Banner :bannerURL="'https://dummyimage.com/1833x802'" bannerAlt="Slider" />
+    <Banner :bannerURL="'https://dummyimage.com/1833x802'" bannerAlt="Slider" :bHeight="557"/>
     <div class="block ml:flex justify-around">
       <BannerCard
         imgSrc="https://img-lcwaikiki1.mncdn.com/mnresize/1024/-/Resource/Images/Banner/11032021-busweat.jpg"

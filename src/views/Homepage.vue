@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import HomepageContent from "../components/HomepageContent";
 export default {
   name: "Homepage",

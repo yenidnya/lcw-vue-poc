@@ -4,6 +4,20 @@ import router from "./router";
 import store from "./store";
 import "tailwindcss/tailwind.css";
 import VueMq from "vue-mq";
+import VueLazyload from 'vue-lazyload'
+
+
+// LazyLoad options
+const loadimage = require('./assets/loading.png')
+const errorimage = require('./assets/error.png')
+
+Vue.use(VueLazyload, {
+  preLoad: 1.3,
+  error: errorimage,
+  loading: loadimage,
+  attempt: 1
+})
+
 
 Vue.use(VueMq, {
   breakpoints: {

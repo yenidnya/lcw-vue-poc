@@ -1,11 +1,14 @@
 <template>
   <div>
     <div class="mb-10 px-4">
-      <div class="rounded-lg h-64 overflow-hidden">
+      <div
+        class="rounded-lg h-64 overflow-hidden"
+        v-lazy-container="{ selector: 'img' }"
+      >
         <img
           :alt="header"
           class="object-cover object-center h-full w-full"
-          :src="imgSrc"
+          :data-src="imgSrc"
         />
       </div>
       <h2 class="banner-header mt-6 mb-3">
